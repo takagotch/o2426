@@ -1,0 +1,19 @@
+
+#video-background,
+#video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+ 
+#video-background {
+  z-index: -2;
+}
+ 
+#video-overlay {
+  z-index: -1;
+}
